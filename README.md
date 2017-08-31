@@ -15,10 +15,10 @@ jr.hr();
 console.log(0.1 + 0.2);
 console.log( jr.n(0.1, '+', 0.2) );
 
-const v_regexp = [
-	{num: '1',	regexp_str: 'дорог(ой|ая|ие)'},
-	{num: '2',	regexp_str: 'дешев(ый|ая|ие|ле)'},
-	{num: '3',	regexp_str: 'хорош(ий|ая|ие|ее)'}
+var v_regexp = [
+	{num: '1', regexp_str: 'дорог(ой|ая|ие)'},
+	{num: '2', regexp_str: 'дешев(ый|ая|ие|ле)'},
+	{num: '3', regexp_str: 'хорош(ий|ая|ие|ее)'}
 ];
 
 var regexp_match = jr.regex_compile(v_regexp, 'regexp_str', 'ig');
